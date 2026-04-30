@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import ProjectCard from './ProjectCard';
 import billingImg from '../assets/Images/billing.png';
 import jambarImg from '../assets/Images/jambarApp.png';
