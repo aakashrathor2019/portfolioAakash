@@ -3,22 +3,25 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Full Stack Developer',
-      company: 'JUST MIND WORK Private Limited',
-      duration: '2024 - Present',
-      description: 'Building scalable web applications using React and Ruby on Rails. Leading frontend architecture decisions and implementing modern UI/UX practices.',
+      title: 'Software Engineer',
+      company: 'Gammaedge Technologies – Indore, MP',
+      duration: 'June 2025 – Present',
+      description:
+        'Working on Ikano Bank, a Europe-based digital banking platform and IKEA financial partner. Built secure RESTful APIs for customer onboarding, loan management, and transaction processing using Python, Django, REST API, AWS, PostgreSQL, and Git. Implemented authentication, authorization, role-based access control, optimized database performance, conducted debugging and testing, and collaborated with European stakeholders, QA teams, and product owners in Agile environments.',
     },
     {
-      title: 'Software Developer',
-      company: 'JUST MIND WORK Private Limited',
-      duration: '2023 - 2024',
-      description: 'Developed custom web solutions for clients across various industries. Collaborated with design teams to implement responsive and accessible interfaces.',
+      title: 'Junior Software Engineer',
+      company: 'BestPeers Infosystems – Indore, MP',
+      duration: 'July 2024 – June 2025',
+      description:
+        'Worked on Decathlon Online Store, a global sports retail e-commerce platform. Developed full-stack e-commerce modules including product catalog, shopping cart, checkout, and order management using Django, HTML, CSS, JavaScript, AWS, Jenkins, and Git. Integrated secure payment gateways, implemented RBAC, managed AWS deployments, handled production debugging, and built CI/CD pipelines for faster and reliable deployments.',
     },
     {
-      title: 'Junior Developer',
-      company: 'StartUp Hub',
-      duration: '2022 - 2023',
-      description: 'Started my professional journey building MVPs and learning modern web technologies. Gained hands-on experience with HTML, CSS, JavaScript and databases.',
+      title: 'Associate Software Engineer',
+      company: 'Trumen Technologies Pvt. Ltd. – Indore, MP',
+      duration: 'June 2023 – June 2024',
+      description:
+        'Contributed to StockPulse AI, a smart inventory and supply chain platform with AI Assistant. Designed scalable REST APIs using Python and Flask for inventory tracking, procurement workflows, and vendor management. Developed and integrated AI chatbot features using Groq API with role-based access control, optimized backend performance, improved system reliability, and supported deployment, debugging, and maintenance of production systems.',
     },
   ];
 
@@ -29,9 +32,11 @@ const Experience = () => {
           <h2 className="text-4xl font-bold text-white mb-4">
             Work <span className="text-indigo-500">Experience</span>
           </h2>
+
           <div className="w-20 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto rounded-full"></div>
+
           <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-            My professional journey in the tech industry
+            My professional journey in Python backend and full-stack development
           </p>
         </div>
 
@@ -48,19 +53,24 @@ const Experience = () => {
               >
                 <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full transform -translate-x-1/2 z-10 shadow-lg shadow-indigo-500/50"></div>
 
-                <div className={`ml-12 md:ml-0 md:w-5/12 ${
-                  index % 2 === 0 ? 'md:pr-12 md:text-right' : 'md:pl-12'
-                }`}>
+                <div
+                  className={`ml-12 md:ml-0 md:w-5/12 ${
+                    index % 2 === 0 ? 'md:pr-12 md:text-right' : 'md:pl-12'
+                  }`}
+                >
                   <div className="card card-hover">
                     <span className="inline-block px-3 py-1 bg-indigo-500/20 text-indigo-400 text-sm rounded-full mb-3">
                       {exp.duration}
                     </span>
+
                     <h3 className="text-xl font-semibold text-white mb-1">
                       {exp.title}
                     </h3>
+
                     <h4 className="text-purple-400 font-medium mb-3">
                       {exp.company}
                     </h4>
+
                     <p className="text-gray-400 text-sm leading-relaxed">
                       {exp.description}
                     </p>

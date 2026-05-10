@@ -61,7 +61,7 @@ const Navbar = () => {
               }}
               className="text-2xl font-bold cursor-pointer bg-gradient-to-r bg-clip-text text-white"
             >
-              Gopal Joshi
+              Aakash Rathor
             </RouterLink>
           </div>
 
